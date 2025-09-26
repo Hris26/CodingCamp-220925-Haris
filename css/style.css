@@ -1,0 +1,18 @@
+.logo {
+    height: 75px;
+    width: 75px;
+    background-color: rgba(255, 255, 255, 0.978);
+    border-radius: 50%;
+    background-image: url("../img/LOGO.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+    height: 100px;
+}

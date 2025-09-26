@@ -5,21 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+
     <!--CSS EXTERNAL-->
     <link rel="stylesheet" href="css/style.css">
+
+    <!--Bootstrap CSS CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
 </head>
 
 <body>
     <!--Header Content -->
-    <header></header>
+    <header class="main-header">
+
+        <div class="logo">
+        
+        </div>
+
+<!--Navigation Menu-->
+        <nav>
+            <ul class="flex h-[100%] items-center gap-[2px]">
+                <li><a class="border p-[8px] rounded" href="#home">Home</a></li>
+                <li><a class="border p-[8px] rounded" href="#profile">Profile</a></li>
+                <li><a class="border p-[8px] rounded" href="#portofolio">Portofolio</a></li>
+                <li><a class="border p-[8px] rounded" href="#massage-us">Massage Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!--Main Content -->
-    <main></main>
+    <main>
+
+        <!--Home Section-->
+        <section id="home" class="h-[100vh] flex flex-col justify-center items-center gap-[20px]">
+            <h1 class="text-[50px] font-bold">Welcome to My Website</h1>
+            <p class="text-[20px]">This is a simple homepage section.</p>
+        </section>
+        
+        <hr>
+
+        <!--Profile Section-->
+        <section id="profile" class="h-[100vh] flex flex-col justify-center items-center gap-[20px]">
+            <h2 class="text-[40px] font-bold">Profile</h2>
+            <p class="text-[20px]">This is the profile section.</p>
+        </section>
+
+        <hr>
+
+        <!--Portofolio Section-->
+        <section id="portofolio" class="h-[100vh] flex flex-col justify-center items-center gap-[20px]">
+            <h2 class="text-[40px] font-bold">Portofolio</h2>
+            <p class="text-[20px]">This is the portofolio section.</p> 
+        </section>
+
+        <hr>
+
+        <!--Massage Us Section-->
+        <section id="massage-us" class="h-[100vh] flex flex-col justify-center items-center gap-[20px]">
+            <h2 class="text-[40px] font-bold">Massage Us</h2>
+            <p class="text-[20px]">This is the massage us section.</p>
+        </section>
+
+    </main>
 
     <!--Footer Content -->
-    <footer></footer>
+    <footer>
+        <p class="text-center p-[20px] bg-gray-200">© 2024 My Website. All rights reserved.</p>
+    </footer>
 
     <!--JS EXTERNAL-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
